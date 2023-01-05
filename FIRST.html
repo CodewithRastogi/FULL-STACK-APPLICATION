@@ -4,42 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Linus</title>
+    <title>Tribute Page to Linus Torvalds</title>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+    </style>
     
 </head>
 <body>
     <h1>Linus Torvalds</h1>
     <p>The Creator of Linux</p>
-    <img src="IMAGES/LT.jpeg" alt="Pic of Linus Torvalds"/>
-    <p>A photograph of Linus Torvalds</p>
+    <a href="#res">Resources</a><!--Directly go to Resources secttion  but with a jerk use style tag with html->scroll-behavior:smooth;-->
+    <a href="#Ach">Achivements</a>
+    <!--<img src="IMAGES/LT.jpeg" alt="Pic of Linus Torvalds"/>-->
+    <figure><!--NEW To PUT A TITLE JUST BELOW THE IMAGE -->
+              <!--The way to make image clickable-->
+              <a href="#res"><img src="IMAGES/LT.jpeg" alt="PIC OF LINUS TORVALDS">
+               </a>
+                <figcaption>A photograph of Linus Torvalds</figcaption>
+    </figure>
+    
     <h2>Biography</h2>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam cum quas unde nobis nemo deserunt amet necessitatibus dignissimos, quidem vero eius officiis natus asperiores quis ab impedit, molestias, voluptate vel?</p>
-    <h3>Achivements</h3>
+    <h2 id="Ach">Achivements</h2>
     <ul>
         <li><strong>1991-</strong>Created the Linux Kernel and the version control system Git.</li>
         <li><strong>2004-</strong>Named one of the "100 Most Influential People in the World" by Time magazine in 2004</li>
-        <li><strong>2010</strong>Received an honoracy doctrate from the University of Helsinki in 2010.</li>
+        <li><strong>2010-</strong>Received an honoracy doctrate from the University of Helsinki in 2010.</li>
         <li><strong>2010-</strong>Received the 2010 Millennium Technology Prize and the 2012 Free Software Foundation's Award for the Advancement of Free Software.</li>
         <li><strong>2013-</strong>Inducted into the Internet Hall of Frame in 2013 for his contributions to the development of the Linux Kernel and the creation of Git.</li>
-        <li><srong>2014-</srong>Inducted into the Hall of Frame of the Computer History Muemum in 2014</li>
+        <li><strong>2014-</strong>Inducted into the Hall of Frame of the Computer History Muemum in 2014</li>
         <li><strong>2015-</strong>Received  the 2015 IEEE Computer Society Computer Pioneer Award</li>
         <li><strong>2019-</strong>Received the 2019 ACM SIGOPS Hall of frame Award</li>
         <li><strong>2021-</strong>Awarded the Takeda Foundation's 2021 Takeda Award for Social Contribution,which recognizes individuals who have made significant to society through technology</li>
         <li><strong>2021-</strong>Received  the 2021 IEEE Computer Society Computer Pioneer Award</li>
     </ul>
-   <pre>
+   <!--<pre>
                     "One of the most Influential people in the world." 
-                    
-   </pre>
-   <pre>
-    `                <p>--Time Magazine<a href="#">The Famous People</a></p>
-   </pre>
-   <h2>Resources</h2>
-   Learn more about Linus Torvalds and his work:
+                       
+                      --Time Magazine<a href="#">The Famous People</a>
+     </pre>-->
+  <!--QUATATION AND CITATION refer html cheatsheet for definitions -->
+  <blockquote><!--Use of blockquote or q tag for below.-->
+    <p>"One of the most Influential people in the world."</p>
+    <cite>
+        --Time Magazine<!--Always use cite tag for the below situation.-->
+        <a href="#">The Famous People</a>
+    </cite>
+  </blockquote>
+   <h2 id="res">Resources</h2>
+   <p>Learn more about Linus Torvalds and his work:</p>  
    <ul>
-    <li><a href="#"><u>Wikipedia page on Linus Torvalds</u></a></li>
-    <li><a href="#"><u>Linus Torvald's personal website</u></a></li>
-    <li><a href="#"><u>The Linux Kernel Archives</u></a></li>
+    <li><a href="#">Wikipedia page on Linus Torvalds</a></li>
+    <li><a href="#">Linus Torvald's personal website</a></li>
+    <li><a href="#">The Linux Kernel Archives</a></li>
    </ul>
 </body>
 </html>
