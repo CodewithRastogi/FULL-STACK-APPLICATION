@@ -1,0 +1,17 @@
+.container{
+    background-color: brown;
+    height: 500px;
+    border: 3px solid black;
+    display: grid;
+    grid-template-columns:150px 1fr 1fr;
+    grid-template-rows: 30px 1fr 30px 30px;
+    
+}
+.box{
+    background-color: aqua;
+    border: 3px solid black;
+}
+#box1,#box3{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
