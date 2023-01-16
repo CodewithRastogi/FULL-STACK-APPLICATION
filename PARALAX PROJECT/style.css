@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.wrapper{
+#wrapper{
     height:100vh;
     overflow: hidden auto; 
     perspective: 10px;

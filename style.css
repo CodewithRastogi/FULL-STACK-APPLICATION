@@ -1,0 +1,18 @@
+div{
+    height:min-content;
+    width: fit-content;
+    
+}
+img{
+    padding: 1px;
+    border-radius: 10px;
+}
+#para{
+    font-size:x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#para1
+{
+    font-weight: 300;
+    color:cornflowerblue;
+}

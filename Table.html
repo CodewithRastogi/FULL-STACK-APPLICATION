@@ -5,34 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table</title>
+     <style>
+        table,tr,th,td
+        {border:1px rgb(0, 0, 0) solid;
+         border-collapse:collapse;
+         color-interpolation-filters: linearRGB;       
+       }
+     </style>
 </head>
 <body>
-    <table>
-        <thead>
-            <th>
-                Name
-            </th>
-            <th>
-                Result
-            </th>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Abhishek</td>
-                <td>Pass</td>
-            </tr>
-            <tr>
-                <td>Prafull</td>
-                <td>Pass</td>
-            </tr>
-            <TR>
-                <TD>Ajay</TD>
-                <TD>PASS</TD>
-            </TR>
-        </tbody>
-        <tfoot>
-            <td>Footer</td>
-        </tfoot>
-    </table>
+   <table>
+      <caption>Balanced</caption>
+      <colgroup>
+         <col span="2" style="background-color:aqua">
+         <col span="" style="background-color:chartreuse">
+         <col span="" style="background-color: brown;">
+      </colgroup>
+      <tr>
+         <td rowspan="2">State of Health</td>
+         <td colspan="2">Fasting Value</td>
+         
+         <td>After eating</td>
+      </tr>
+      <tr>
+         <td>minimum</td>
+         <td>maximum</td>
+         <td>2 hr after eating</td>
+      </tr>
+      <tr>
+         <td>Healthy</td>
+         <td>20</td>
+         <td>50</td>
+         <td>Yes</td>
+      </tr>
+      <tr>
+         <td>Unhealthy</td>
+         <td>10</td>
+         <td>40</td>
+         <td>no</td>
+      </tr>
+      <tr>
+         <td>OverHealth</td>
+         <td>5</td>
+         <td>25</td>
+         <td>Dangerous</td>
+      </tr>
+   </table>
 </body>
 </html>

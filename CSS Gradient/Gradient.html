@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS LEVEL 2</title>
+    <style>
+        .linearg{
+            border:1px solid black;
+            height: 250px;
+            width: 250px;
+            background-image: linear-gradient(red,green,blue,pink);
+        }
+        .linearg1{
+            border:1px solid black;
+            height: 250px;
+            width: 250px;
+            background-image: linear-gradient(to bottom right,red,green,blue,pink);
+            margin: 10px;
+        }
+        .linearg2{
+            border:1px solid black;
+            height: 250px;
+            width: 250px;
+            background-image: linear-gradient(to bottom left,red,green,blue,pink);
+            margin: 10px;
+        }
+        .linearg3{
+            border:1px solid black;
+            height: 250px;
+            width: 250px;
+            background-image: linear-gradient(to right,rgba(255,0,0,1),rgba(68, 215, 68, 0.5),rgba(0,0,255,1),pink);/*to right means from left to right.*/
+            margin: 10px;
+        }
+        .radialg{
+            border:1px solid black;
+            height:250px;
+            width:250px;
+            margin: 10px;
+            background-image: radial-gradient(green,white,orange);
+        }
+        .cg{
+            border:1px solid black;
+            height:200px;
+            width:200px;
+            margin: 10px;
+            box-sizing: border-box;
+            background-image: conic-gradient(red,yellow,green);
+            border-radius: 50%;
+        }
+        #rep
+        {
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            background-image: repeating-conic-gradient(red 10%,yellow 20%);
+            border-radius: 50%;
+        }
+        #rep1{
+            margin:10px;
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            background-image: repeating-conic-gradient(red 0deg 10deg,yellow 10deg 20deg,blue 20deg 30deg);
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+  <div class="linearg">
+    <p>Hello I am Linear Gradient</p>
+  </div>
+  <div class="linearg1">
+    <p>Hello I am Linear Gradient</p>
+  </div>
+  <div class="linearg2">
+    <p>Hello I am Linear Gradient</p>
+  </div>
+  <div class="linearg3">
+    <p>Hello I am Linear Gradient</p>
+  </div>
+  <div class="radialg">
+    <p>Hello I am Radial Gradient</p>
+  </div>
+  <div class="cg">
+
+  </div>
+  <h1> Repeating conical gradient</h1>
+ <div id="rep"></div>
+ <div id="rep1"></div>
+
+</body>
+</html>
