@@ -1,0 +1,34 @@
+/* *{
+    margin: 0; padding: 0; box-sizing: border-box;
+} */
+
+#head{
+    height: 100%;
+    width: 100%;
+    text-decoration: underline;
+    text-align: center;
+    
+}
+#sp{
+    margin:4px;
+    padding:2px;
+    text-decoration: underline;
+    color: grey;
+}
+.container{
+    height: 700px;
+  
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-gap: 10px;
+}
+.box{ 
+    margin:10px;
+    border: 2px solid grey; 
+  
+}
+#p1{color:rgb(13, 133, 173);}
+a{color: royalblue;}
+.box{padding: 5px;}
+#p2{color: darkgreen;}

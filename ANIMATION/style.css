@@ -1,0 +1,42 @@
+.container{
+    height: 215px;
+    width: 100%;
+    background-color: chartreuse;
+    border: 2px solid black;
+}
+.box{
+    border: 1px solid green;
+    background-color: orangered;
+    height: 212px;
+    width: 212px;
+    animation-name: abhi;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-delay: 2s;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+/* @keyframes abhi {
+    from{
+        width:212px;
+    }
+    to{
+        width: 866px;
+    }
+    
+} */
+@keyframes abhi{
+    0%{
+        width: 212px;
+        background-color: orange;
+    }
+    50%{
+        width: 50%;
+        background-color: white;
+    }
+    100%{
+        width: 100%;
+        background-color: green;
+    }
+}
